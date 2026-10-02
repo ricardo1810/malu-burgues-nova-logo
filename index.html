@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light" />
+  <title>Malu Burguer's | Nova identidade visual</title>
+  <meta name="description" content="Hambúrguer raiz em Copacabana (RJ): combos com batata e bebida, artesanais, caixas, sobremesas, balcão, retirada e entrega. Malu Burguer's, aberta até 02h45. Peça no cardápio oficial." />
+  <meta property="og:title" content="Malu Burguer's" />
+  <meta property="og:description" content="Burger quente, batata sequinha e combo pronto pra matar a fome." />
+  <meta property="og:image" content="https://ricardo1810.github.io/malu-burgues-site/assets/produtos/malu-piscininha.jpg" />
+  <link rel="icon" href="assets/logo-malu-sem-fundo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="nova-logo.css" />
+  <!-- Progressive enhancement: hide .reveal only when JS boots. Failsafe restores visibility if script.js never confirms. -->
+  <script>
+    document.documentElement.classList.add("js-ready");
+    window.setTimeout(function () {
+      if (!window.__maluRevealsLive) {
+        document.documentElement.classList.remove("js-ready");
+      }
+    }, 2500);
+  </script>
+</head>
+<body class="nova-logo-theme">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="cheddar-scroll" role="scrollbar" tabindex="0" aria-label="Controle de rolagem" aria-controls="conteudo" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <span class="cheddar-track"></span>
+    <img class="cheddar-fries" src="assets/batata-scroll.svg" alt="" />
+  </div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand-mark" href="#topo" aria-label="Voltar ao início">
+      <img src="assets/logo-malu-sem-fundo.png" alt="Logo circular da Malu Burguer's" width="56" height="56" />
+      <span>Malu Burguer's</span>
+    </a>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-controls="topnav" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="topnav" id="topnav" aria-label="Navegação principal">
+      <a href="#combos">Combos</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobremesas">Sobremesas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#localizacao">Atendimento</a>
+      <a href="https://www.instagram.com/malu_burgues/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </nav>
+
+    <a class="top-cta" href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Pedir</a>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="topo">
+      <video class="hero-bg-video" src="assets/malu-instagram-reel.mp4" poster="assets/logo-malu-sem-fundo.png" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+      <div class="hero-copy reveal visible">
+        <p class="stamp">Entrega e retirada</p>
+        <h1>Hambúrguer raiz, feito na hora.</h1>
+        <p class="hero-text">Burger quente, batata sequinha e sobremesa carro chefe. Escolheu, abriu o cardápio, pediu.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Abrir cardápio oficial</a>
+          <a class="button button-whatsapp" href="https://wa.me/5521981474263?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20na%20Malu%20Burguer's" target="_blank" rel="noopener noreferrer">Pedir no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero-plate reveal reveal-delay-1 visible">
+        <div class="logo-ring">
+          <img src="assets/logo-malu-sem-fundo.png" alt="Nova logo circular da Malu Burguer's com hambúrguer em chamas" />
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Sabores da Malu">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Trio Malu</span>
+          <span>Batata turbinada</span>
+          <span>Sobremesa gelada</span>
+          <span>Piscininha</span>
+          <span>Caixa pra galera</span>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <span>Trio Malu</span>
+          <span>Batata turbinada</span>
+          <span>Sobremesa gelada</span>
+          <span>Piscininha</span>
+          <span>Caixa pra galera</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="combos section-pad" id="combos">
+      <div class="section-lead reveal">
+        <h2>Combos mais pedidos.</h2>
+        <p>Uma foto forte, quatro escolhas rápidas e o botão pra pedir sem pensar demais.</p>
+      </div>
+
+      <div class="combo-board reveal">
+        <article class="combo-main">
+          <img class="combo-photo" src="assets/produtos/malu-piscininha.jpg" alt="Trio Piscininha Artesanal: pães, carne e cheddar na piscininha de cheddar com bacon" loading="lazy" />
+          <span>Mais pedido</span>
+          <h3>Piscininha</h3>
+          <a href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Pedir agora</a>
+        </article>
+        <ul class="combo-list" aria-label="Combos em destaque">
+          <li><strong>Trio Malu Burguer</strong><span>batata 150g e bebida · a partir de R$ 23</span></li>
+          <li><strong>Trio Malu Egg</strong><span>ovo, salada, batata e bebida · a partir de R$ 25</span></li>
+          <li><strong>Trio Malu Tudo</strong><span>recheio forte, batata e bebida · a partir de R$ 33</span></li>
+          <li><strong>Trio Monster</strong><span>o mais parrudo · a partir de R$ 43</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menu-strip section-pad" id="cardapio">
+      <div class="menu-title reveal">
+        <h2>Cardápio completo.</h2>
+        <p>Todos os lanches, combos e preços. Pediu, chamou no WhatsApp ou abriu o cardápio oficial e mandou ver.</p>
+      </div>
+
+      <nav class="category-wall reveal" aria-label="Categorias do cardápio">
+        <a href="#cat-hamburguer">Hambúrguer</a>
+        <a href="#cat-artesanais">Artesanais</a>
+        <a href="#cat-trios">Trios</a>
+        <a href="#cat-caixas">Caixas</a>
+        <a href="#cat-batatas">Batatas</a>
+        <a href="#cat-porcoes">Porções</a>
+        <a href="#cat-bebidas">Bebidas</a>
+      </nav>
+
+      <div class="menu-full reveal">
+        <details class="menu-group menu-span" id="cat-hamburguer" open>
+          <summary><h3>Hambúrguer</h3></summary>
+          <ul>
+            <li class="menu-item menu-item--photo"><img class="menu-item-photo" src="assets/produtos/hamburguer-9-reais.png" alt="Hambúrguer simples com pão com gergelim, carne, alface e molho" width="240" height="240" decoding="async"><div class="menu-item-info"><strong>Hambúrguer</strong><span>Pão, carne e molho</span></div><span class="menu-price">R$ 9,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Burguer</strong><span>Pão, carne, queijo, salada e molho especial</span></div><span class="menu-price">R$ 12,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Egg</strong><span>Pão, carne, queijo, ovo, salada e molho especial</span></div><span class="menu-price">R$ 13,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Piscininha</strong><span>Pão, 2 carnes e 2 fatias de cheddar mergulhadas na piscina de cheddar com bacon</span></div><span class="menu-price">R$ 22,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Chicken Bacon</strong><span>Pão, carne de frango, bacon, requeijão, alface e baconese da casa</span></div><span class="menu-price">R$ 20,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Chicken Salada</strong><span>Pão, hambúrguer de frango, salada e molho especial</span></div><span class="menu-price">R$ 15,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Tudo</strong><span>Pão, 2 carnes, cheddar, ovo, presunto, bacon, calabresa, salada e molho especial</span></div><span class="menu-price">R$ 20,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Picanha</strong><span>Pão, carne de picanha, ovo, queijo, presunto, bacon, cheddar cremoso, salada e molho especial</span></div><span class="menu-price">R$ 22,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Picanha Onion</strong><span>Pão, carne de picanha, cheddar, anéis de cebola, bacon e molho especial</span></div><span class="menu-price">R$ 24,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Duplo Bacon</strong><span>Pão, 2 carnes, 2 cheddars, presunto, muito bacon, alface e molho especial</span></div><span class="menu-price">R$ 21,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Double Cheddar</strong><span>Pão, carne, 2 fatias de cheddar, cheddar cremoso, salada e molho especial</span></div><span class="menu-price">R$ 16,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>X-Tudão</strong><span>Pão, 2 carnes, 2 ovos, dose dupla de queijo, presunto, bacon, calabresa, salada e molho especial</span></div><span class="menu-price">R$ 24,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Triplo Burguer</strong><span>Pão, 3 carnes, 3 fatias de cheddar, alface e molho especial</span></div><span class="menu-price">R$ 21,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Quarentena</strong><span>Pão, 4 carnes, 4 fatias de cheddar e molho especial</span></div><span class="menu-price">R$ 23,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Triplo Tudo</strong><span>Pão, 3 carnes, 3 ovos, queijo, presunto, bacon, calabresa, cheddar cremoso, alface e molho especial</span></div><span class="menu-price">R$ 28,00</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group menu-span" id="cat-artesanais">
+          <summary><h3>Artesanais</h3></summary>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Burguer Artesanal</strong><span>Pão de brioche, 1 carne blend de 150g, queijo, baconese e salada</span></div><span class="menu-price">R$ 22,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Levissimo Artesanal</strong><span>Pão de brioche, 1 blend de carne de 150g, queijo mussarela, maionese light e salada</span></div><span class="menu-price">R$ 30,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Artesanal Piscininha</strong><span>Pão de brioche, carne artesanal da casa de 150g, fatia de queijo, bacon, mergulhado na piscina de cheddar com bacon</span></div><span class="menu-price">R$ 32,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Melt</strong><span>Pão de brioche, 1 carne artesanal 120 gr, duas fatias de queijo, cebola caramelizada no shoyo e salada</span></div><span class="menu-price">R$ 23,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Monsters</strong><span>Pão de brioche, 2 carnes artesanal de 100 gramas, 2 fatias de queijo, bacon, cebola caramelizada, barbecue e baconese</span></div><span class="menu-price">R$ 33,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Malu Tudo Artesanal</strong><span>Pão de brioche, carne de 100gr, ovo, bacon, calabresa, queijo e presunto, baconese e salada</span></div><span class="menu-price">R$ 78,00</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group menu-span" id="cat-trios">
+          <summary><h3>Trios Malu</h3></summary>
+          <p class="menu-group-note">Todo trio acompanha batata 150g e bebida. Preço com <strong>Guaravita / Coca</strong>.</p>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Piscininha Artesanal</strong><span>Carne artesanal 150g na piscina de cheddar com bacon, batata e Coca</span></div><span class="menu-price">R$ 42,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Burguer</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 23 / 25</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Egg</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 25 / 27</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Double Cheddar</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 28 / 30</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Chicken Salada</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 28 / 30</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Chicken Bacon</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 33 / 35</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Tudo</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 33 / 35</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio X-Tudão</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 37 / 39</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Duplo Bacon</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 34 / 36</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Triplo Burguer</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 34 / 36</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Picanha</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 35 / 37</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Picanha Onion</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 37 / 39</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Quarentena</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 36 / 38</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Triplo Tudo</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 39 / 41</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Burguer Artesanal</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 35 / 37</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Malu Melt</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 36 / 38</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Trio Monster</strong><span>Guaravita ou Coca</span></div><span class="menu-price">R$ 43 / 48</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group" id="cat-caixas">
+          <summary><h3>Caixas</h3></summary>
+          <p class="menu-group-note">Acompanham batata turbinada, nuggets e Guaraná 1,5L.</p>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Malu Egg</strong><span>Batata turbinada 350g</span></div><span class="menu-price">R$ 59,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 3 Malu Egg</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 69,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 4 Malu Egg</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 73,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Malu Tudo</strong><span>Batata turbinada 350g</span></div><span class="menu-price">R$ 75,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 3 Malu Tudo</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 82,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 4 Malu Tudo</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 95,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Duplo Bacon</strong><span>Batata turbinada 350g</span></div><span class="menu-price">R$ 63,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 3 Duplo Bacon</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 70,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 4 Duplo Bacon</strong><span>Batata turbinada 500g</span></div><span class="menu-price">R$ 78,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Malu Artesanal</strong><span>Batata 350g, 4 nuggets, refri 1,5L e potinho de molho</span></div><span class="menu-price">R$ 80,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Malu Melt Artesanal</strong><span>Batata 350g, 4 nuggets, refri 1,5L e potinho de molho</span></div><span class="menu-price">R$ 85,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Caixa c/ 2 Malu Monster Artesanal</strong><span>Batata 350g, 4 nuggets, refri 1,5L e potinho de molho</span></div><span class="menu-price">R$ 99,00</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group" id="cat-batatas">
+          <summary><h3>Batatas</h3></summary>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Simples P</strong><span>200g</span></div><span class="menu-price">R$ 8,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Simples M</strong><span>350g, crocante</span></div><span class="menu-price">R$ 14,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Simples G</strong><span>500g, crocante</span></div><span class="menu-price">R$ 20,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Turbinada P</strong><span>200g</span></div><span class="menu-price">R$ 14,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Turbinada M</strong><span>350g, muito bacon, cheddar e catupiry</span></div><span class="menu-price">R$ 22,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Turbinadona</strong><span>600g, bacon, calabresa, cheddar, catupiry e mussarela</span></div><span class="menu-price">R$ 28,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Gourmet 4 Queijos M</strong><span>350g, cheddar, mussarela, coalho e requeijão</span></div><span class="menu-price">R$ 30,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Gourmet 4 Queijos G</strong><span>500g, cheddar, mussarela, coalho e requeijão</span></div><span class="menu-price">R$ 36,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Gourmet Pizza P</strong><span>200g, queijo, presunto, ketchup e orégano</span></div><span class="menu-price">R$ 12,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Gourmet Pizza M</strong><span>350g, queijo, presunto, ketchup e orégano</span></div><span class="menu-price">R$ 20,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata Gourmet Pizza G</strong><span>500g, queijo, presunto, ketchup e orégano</span></div><span class="menu-price">R$ 26,00</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group" id="cat-porcoes">
+          <summary><h3>Porções &amp; Adicionais</h3></summary>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Porção de Nuggets</strong><span>10 unidades</span></div><span class="menu-price">R$ 15,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Porção de Onions</strong><span>10 unidades</span></div><span class="menu-price">R$ 15,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Salgados Fritos</strong><span>10 unidades (9g)</span></div><span class="menu-price">R$ 7,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Salgados Fritos</strong><span>o cento (9g)</span></div><span class="menu-price">R$ 85,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Salgados Congelados</strong><span>o cento (9g)</span></div><span class="menu-price">R$ 70,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Piscina de Cheddar com Bacon</strong><span>Pote com molho cheddar da casa e bacon</span></div><span class="menu-price">R$ 10,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Potinho de Molho Especial</strong><span>Baconese feita na casa</span></div><span class="menu-price">R$ 3,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata + Coca</strong><span>Batata 150g na compra do lanche unitário</span></div><span class="menu-price">R$ 15,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Batata + Guaravita</strong><span>Batata 150g na compra do lanche unitário</span></div><span class="menu-price">R$ 13,00</span></li>
+          </ul>
+        </details>
+
+        <details class="menu-group" id="cat-bebidas">
+          <summary><h3>Bebidas</h3></summary>
+          <ul>
+            <li class="menu-item"><div class="menu-item-info"><strong>Guaravita Natural</strong><span>290ml</span></div><span class="menu-price">R$ 3,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Coca-Cola</strong><span>350ml</span></div><span class="menu-price">R$ 7,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Coca-Cola Zero</strong><span>350ml</span></div><span class="menu-price">R$ 7,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Guaraná Antarctica</strong><span>350ml</span></div><span class="menu-price">R$ 7,00</span></li>
+            <li class="menu-item"><div class="menu-item-info"><strong>Guaraná Antarctica</strong><span>1,5L</span></div><span class="menu-price">R$ 12,00</span></li>
+          </ul>
+        </details>
+
+        <a class="menu-group cake-house-card" id="cat-sobremesas-menu" href="#sobremesas" aria-label="Ir para a seção de sobremesas da Malu Cake House">
+          <h3>Sobremesas</h3>
+        </a>
+      </div>
+
+      <p class="menu-disclaimer reveal">Preços e disponibilidade sujeitos a alteração. Confirme no <a href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">cardápio oficial</a>.</p>
+    </section>
+
+    <section class="about-section section-pad" id="sobre">
+      <div class="about-card reveal">
+        <div class="about-stats">
+          <strong>Malu Burguer's</strong>
+          <span>R. Euclídes da Rocha, 9 · Copacabana, RJ</span>
+          <span>Balcão, entrega e retirada</span>
+        </div>
+        <div>
+          <h2>Sabor de hamburgueria local, sem frescura.</h2>
+          <p>A Malu Burguer's é aquela pedida direta: hambúrguer caprichado, combo esperto, batata pra acompanhar e sobremesa pra fechar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof section-pad" id="diferenciais">
+      <h2 class="reveal">O que faz diferença no pedido.</h2>
+      <div class="proof-grid reveal">
+        <p><strong>Trios prontos</strong> Burger, batata 150g e bebida no mesmo pedido.</p>
+        <p><strong>Artesanais</strong> Opções com carne da casa e muita presença visual.</p>
+        <p><strong>Caixas</strong> Combos para 2, 3 ou 4 pessoas.</p>
+        <p><strong>Batatas</strong> Simples, turbinadas e piscininhas com cheddar.</p>
+      </div>
+    </section>
+
+    <section class="desserts section-pad" id="sobremesas" aria-labelledby="sobremesas-titulo">
+      <div class="dessert-copy reveal">
+        <img class="cake-house-logo" src="assets/malu-cake-house-logo.jpg" alt="Logo da Malu Cake House: a Malu de óculos escuros carregando uma fatia de bolo de chocolate com cereja" width="1254" height="1254" loading="lazy" decoding="async" />
+        <span>Sobremesas</span>
+        <h2 id="sobremesas-titulo">Bateu vontade de doce?</h2>
+        <p>Os doces têm casa própria: a Malu Cake House. Bolos e sobremesas ficam todos lá, é só acessar a página.</p>
+        <a class="button button-light" href="https://malu-cake-house.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver a Malu Cake House (abre em nova aba)">Ver a Malu Cake House</a>
+      </div>
+      <div class="dessert-board reveal reveal-delay-1">
+        <div class="dessert-tile dessert-hero">
+          <img class="dessert-photo" src="assets/produtos/bolo-ovomaltine.jpg" alt="Fatia de bolo de Ovomaltine com recheio cremoso" loading="lazy" decoding="async" />
+          <span class="dessert-tag">Mais pedida</span>
+          <strong>Bolo de Ovomaltine</strong>
+          <span class="dessert-price">R$ 15,00</span>
+        </div>
+        <div class="dessert-tile">
+          <img class="dessert-photo" src="assets/produtos/bolo-oreo.jpg" alt="Fatia de bolo de Oreo com creme e pedaços de biscoito" loading="lazy" decoding="async" />
+          <strong>Bolo de Oreo</strong>
+          <span class="dessert-price">R$ 15,00</span>
+        </div>
+        <div class="dessert-tile">
+          <img class="dessert-photo" src="assets/produtos/bolo-black-maracuja.jpg" alt="Fatia de bolo black de chocolate com maracujá" loading="lazy" decoding="async" />
+          <strong>Bolo Black com Maracujá</strong>
+          <span class="dessert-price">R$ 15,00</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="galeria">
+      <div class="section-lead reveal">
+        <h2>Olha isso e tenta não pedir.</h2>
+        <p>Bateu o desejo? Abra o cardápio oficial e peça.</p>
+      </div>
+      <div class="gallery-stack reveal">
+        <figure class="gallery-media">
+          <video src="assets/malu-instagram-reel.mp4" poster="assets/logo-malu-sem-fundo.png" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+          <figcaption>Reel da Malu em movimento</figcaption>
+        </figure>
+        <figure class="gallery-photo is-tall">
+          <img src="assets/produtos/malu-picanha-onion.jpg" alt="Malu Picanha Onion: picanha, anéis de cebola, bacon e cheddar" loading="lazy" />
+          <figcaption>Picanha Onion</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-chicken-bacon.jpg" alt="Malu Chicken Bacon: frango, bacon e requeijão no prato da Malu" loading="lazy" />
+          <figcaption>Chicken Bacon</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-picanha.jpg" alt="Malu Picanha: picanha, ovo, cheddar cremoso e bacon" loading="lazy" />
+          <figcaption>Malu Picanha</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-chicken-salada.jpg" alt="Malu Chicken Salada: hambúrguer de frango, salada e molho especial" loading="lazy" />
+          <figcaption>Chicken Salada</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-burguer.jpg" alt="Malu Burguer: carne, queijo, salada e molho especial" loading="lazy" />
+          <figcaption>Malu Burguer</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/hamburguer.jpg" alt="Hambúrguer da casa: pão, carne e molho" loading="lazy" />
+          <figcaption>Hambúrguer</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-tudo.jpg" alt="Malu Tudo: 2 carnes, cheddar, ovo, presunto, bacon, calabresa e salada" loading="lazy" />
+          <figcaption>Malu Tudo</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-duplo-bacon.jpg" alt="Malu Duplo Bacon: 2 carnes, 2 cheddars, presunto, muito bacon e alface" loading="lazy" />
+          <figcaption>Duplo Bacon</figcaption>
+        </figure>
+        <figure class="gallery-photo">
+          <img src="assets/produtos/malu-egg.jpg" alt="Malu Egg: carne, queijo, ovo, salada e molho especial" loading="lazy" />
+          <figcaption>Malu Egg</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="location section-pad" id="localizacao">
+      <div class="location-card reveal">
+        <h2>Onde e como pedir.</h2>
+        <p>Balcão, entrega e retirada em Copacabana, Rio de Janeiro - RJ. Abre o cardápio oficial e pede, ou chama no WhatsApp.</p>
+        <dl>
+          <div><dt>Endereço</dt><dd>R. Euclídes da Rocha, 9 — Copacabana, RJ</dd></div>
+          <div><dt>WhatsApp</dt><dd>(21) 98147-4263</dd></div>
+          <div><dt>Horário</dt><dd>Aberto até 02h45</dd></div>
+        </dl>
+        <div class="location-actions">
+          <a class="button button-primary" href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Abrir cardápio oficial</a>
+          <a class="button button-whatsapp" href="https://wa.me/5521981474263?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20na%20Malu%20Burguer's" target="_blank" rel="noopener noreferrer">Pedir no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section-pad" id="pedido">
+      <div class="final-box reveal">
+        <span>Pedido rápido</span>
+        <h2>Bateu a fome? Pede agora.</h2>
+        <p>Escolhe seu burger, confere o cardápio e confirma entrega, retirada e valor final direto no atendimento oficial.</p>
+        <div class="final-actions">
+          <a class="button button-light" href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Abrir cardápio oficial</a>
+          <a class="button button-whatsapp" href="https://wa.me/5521981474263?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20na%20Malu%20Burguer's" target="_blank" rel="noopener noreferrer">Pedir no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-cta" href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer" aria-label="Abrir o cardápio oficial e pedir">
+    Abrir cardápio e pedir
+  </a>
+
+  <footer class="footer">
+    <div class="footer-contact" aria-labelledby="footer-contact-title">
+      <div>
+        <span>Ficou com alguma dúvida?</span>
+        <h2 id="footer-contact-title">Deseja tirar alguma dúvida?</h2>
+        <p>Chama a Malu pelo WhatsApp e a gente te ajuda.</p>
+      </div>
+      <a class="button button-whatsapp" href="https://wa.me/5521981474263?text=Ol%C3%A1!%20Desejo%20tirar%20uma%20d%C3%BAvida%20sobre%20a%20Malu%20Burguer%27s" target="_blank" rel="noopener noreferrer">Tirar dúvida no WhatsApp</a>
+    </div>
+    <div>
+      <strong>Malu Burguer's</strong>
+      <span>R. Euclídes da Rocha, 9 · Copacabana, RJ · (21) 98147-4263</span>
+    </div>
+    <nav aria-label="Links finais">
+      <a href="https://app.cardapioweb.com/malu_burguers" target="_blank" rel="noopener noreferrer">Cardápio</a>
+      <a href="https://wa.me/5521981474263" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://www.instagram.com/malu_burgues/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="#topo">Topo</a>
+    </nav>
+    <p>CNPJ 64.272.418/0001-30 · Preços, horários e disponibilidade sujeitos à confirmação no atendimento oficial.</p>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Malu Burguer's",
+    "servesCuisine": "Hambúrguer",
+    "priceRange": "$$",
+    "image": "https://ricardo1810.github.io/malu-burgues-site/assets/produtos/malu-piscininha.jpg",
+    "telephone": "+55-21-98147-4263",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Euclídes da Rocha, 9",
+      "addressLocality": "Copacabana",
+      "addressRegion": "RJ",
+      "postalCode": "22031-112",
+      "addressCountry": "BR"
+    },
+    "hasMenu": "https://app.cardapioweb.com/malu_burguers",
+    "acceptsReservations": false,
+    "potentialAction": {
+      "@type": "OrderAction",
+      "target": "https://app.cardapioweb.com/malu_burguers"
+    },
+    "sameAs": ["https://www.instagram.com/malu_burgues/"]
+  }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
